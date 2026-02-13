@@ -19,7 +19,7 @@ It also configures:
 
 ---
 
-![image](https://github.com/username/repo-name/assets/123456/abc-image.png)
+![image](https://github.com/barath923/saravanan-project-v1/blob/334bc7f8ccd706298de2ecc24baaeac1b5b21462/HUB%26SPOKE.jpg)
 
 ---
 
