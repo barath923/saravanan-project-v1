@@ -227,26 +227,6 @@ Simple meaning: network connectivity + routing policy are centralized here.
 
 ---
 
-## 5) Security and operations notes (simple)
-
-- Some NSG rules allow internet SSH/RDP for management; acceptable for labs but risky for production.
-- Credentials are partly variable-driven; use secret stores (Key Vault, CI secrets) for production.
-- Naming and CIDRs are explicitly hardcoded in root module calls, which helps clarity but reduces flexibility.
-- `outputs.tf` is empty; adding key outputs would help operations.
-
----
-
-## 6) How to read this project quickly (recommended order)
-
-1. `main.tf` (top-level orchestration)
-2. `variable.tf` + `terraform.tfvars` (inputs and actual values)
-3. Each environment’s `networking -> compute -> extensions`
-4. `peering/main.tf` (cross-network connectivity)
-5. `hub/dr/site_recovery/main.tf` (DR logic)
-6. `backend.tf` (state management)
-
----
-
 ## 7) One-line summary
 
 This Terraform project builds a multi-environment Azure hub-and-spoke platform with VM workloads, shared networking, centralized routing/peering, and hub disaster recovery replication.
