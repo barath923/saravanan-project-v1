@@ -19,10 +19,6 @@ It also configures:
 
 ---
 
-![image](https://github.com/barath923/saravanan-project-v1/blob/334bc7f8ccd706298de2ecc24baaeac1b5b21462/HUB%26SPOKE.jpg)
-
----
-
 ## 1) Root-level files
 
 ## `backend.tf`
@@ -83,6 +79,8 @@ Think of this setup as a central office and branch offices:
 
 The hub also has a **DR copy** in another region with Azure Site Recovery.
 
+---
+![image](https://github.com/barath923/saravanan-project-v1/blob/334bc7f8ccd706298de2ecc24baaeac1b5b21462/HUB%26SPOKE.jpg)
 ---
 
 ## 3) Module-by-module explanation
