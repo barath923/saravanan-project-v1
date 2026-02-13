@@ -19,6 +19,10 @@ It also configures:
 
 ---
 
+![image](https://github.com/username/repo-name/assets/123456/abc-image.png)
+
+---
+
 ## 1) Root-level files
 
 ## `backend.tf`
@@ -67,7 +71,7 @@ Currently empty.
 
 ---
 
-## 2) Overall architecture in plain English
+## 2) Overall architecture
 
 Think of this setup as a central office and branch offices:
 
